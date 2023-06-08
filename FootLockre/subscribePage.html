@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe | Foot Lockre</title>
+    <link rel="stylesheet" href="subscribePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="formValidation.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <a href="homePage.html">
+                <img src="Assets/Image/Logo.png">
+            </a>
+            <a href="shoesPage.html">
+                <div class="header-items">Shoes</div>
+            </a>
+            <a href="aboutUsPage.html">
+                <div class="header-items">About Us</div>
+            </a>
+            <a href="eventsPage.html">
+                <div class="header-items">Events</div>
+            </a>
+            <a href="subscribePage.html">
+                <div class="header-items">Subscribe</div>
+            </a>
+        </div>
+        <hr class="hr">
+    </header>
+
+    <main>
+
+        <div class="border">
+            
+            <div class="row">
+                <div class="col">
+                    <div class="textsubcribe">
+                        SUBSCRIBE
+                    </div>
+        
+                    <form id="formValidation">
+                        
+                        <div class="textrow">
+                            <div class="input-group">
+                                <input type="text" required placeholder="First name" id="name">
+                            </div>
+            
+                            <div class="input-group">
+                                <input type="text" required placeholder="Last name" id="lname">
+                            </div>
+                        </div>
+        
+                        <div class="input-group">
+                            <input type="email" required placeholder="Email" id="email">
+                        </div>
+        
+                        <div class="input-group">
+                            <!-- <input type="text" required placeholder="Country" id="country" onkeyup="validateCountry()"> -->
+                            <select name="country" id="country">
+                                <option value="default">Select a country</option>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Indonesia">Malaysia</option>
+                            </select>
+                            
+                        </div>
+        
+                        <div class="input-group">
+                            <input type="number" required placeholder="Phone number" id="number">
+                        </div>
+        
+                        <div class="checkbox2">
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="checkbox">
+                                Do you agree to the
+                            </div>
+                            <button class="button-tna">
+                                Terms and Conditions
+                            </button>              
+                        </div>
+        
+                        <input type="submit" class="button-subscribe" id="submit"></input>
+                        <p id="error"></p>
+        
+                    </form>
+
+                </div>
+                <div class="vl"></div>
+                <div class="col">
+                    <img src="Assets/Image/subcribemodel1.png" alt="">
+                    <div class="textfootlockre">
+                        Foot Lockre
+                    </div>
+                    <div class="textfootlockre2">
+                        "Where luxury meets sportswear"
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    
+    <footer>
+
+        <div class="hline"></div>
+
+        <div class="footer-container">
+
+          <div class="footer-column">
+            <h4>ABOUT</h4>
+            <ul>
+                <a href="aboutUsPage.html">
+                    <button>About Us</button>
+                </a>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>SERVICES</h4>
+            <ul>
+              <a href="subscribePage.html">
+                <button>Subscribe</button>
+              </a>
+              <a href="eventsPage.html">
+                <button>Events</button>
+              </a>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>POPULAR LINKS</h4>
+            <ul>
+              <a href="shoesPage.html">
+                <button>Shoes</button>
+              </a>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>FIND US</h4>
+            <ul>
+                <a href="https://www.instagram.com/jowoen">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://www.twitter.com/jowoennn">
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                </a>
+            </ul>
+          </div>
+
+        </div>
+
+      </footer>
+
+</body>
+</html>
